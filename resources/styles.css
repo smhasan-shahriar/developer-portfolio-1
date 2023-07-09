@@ -145,4 +145,28 @@ nav a {
   margin: 130px auto;
   border-radius: 10px;
   background: #fff8f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.info-title,
+.info-description {
+  color: #757575;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.info-description{
+  color: #474747; 
+  font-weight: 700; 
+}
+
+.info-container{
+  display: flex;
+  gap: 50px; 
 }
