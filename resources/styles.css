@@ -161,12 +161,51 @@ nav a {
   line-height: 30px;
 }
 
-.info-description{
-  color: #474747; 
-  font-weight: 700; 
+.info-description {
+  color: #474747;
+  font-weight: 700;
 }
 
-.info-container{
+.info-container {
   display: flex;
-  gap: 50px; 
+  gap: 50px;
+}
+
+/* skills section design */
+.section-do {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.skill-items-container {
+  display: flex;
+}
+
+.skill-item {
+  width: 267px;
+  height: 377px;
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  margin-right: 24px;
+}
+
+.skill-title {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.skill-description {
+  width: 200px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
 }
